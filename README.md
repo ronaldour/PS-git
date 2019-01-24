@@ -8,12 +8,12 @@ This Powershell script updates all the branches names from a repository adding a
 Run the powershell script with the following parameters:
 
 - Url: The git repository Url
-- Username: The username to authenticate to the repo (optional if the repo is public)
-- Password: The password to authenticate (optional if the repo is public, if the username is specified password must be placed)
+- Username: The username to authenticate to the repo (optional if credentials are already configured)
+- Password: The password to authenticate (optional optional if credentials are already configured)
 - Prefix: Prefix to add to the branches
 
 ```
-PS C:\ .\update-branches.ps1 -Url <url> -Username <username> -Password <password> -Prefix <prefix>
+PS C:\> .\update-branches.ps1 -Url <url> -Username <username> -Password <password> -Prefix <prefix>
 ```
 
 #### Important
